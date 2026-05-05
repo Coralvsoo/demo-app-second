@@ -4,7 +4,7 @@ application = Flask(__name__)
 
 @application.route('/')
 def hello():
-    return '<h1>Hello from CI/CD, Special demo for group 302 AI and For Dildora because she is sleeping! Yes No </h1>', 200
+    return '<h1>Hello from CI/CD, Special demo for group 302 AI and For Dildorga because she is sleeping! Yes No </h1>', 200
 
 @application.route('/health')
 def health():
